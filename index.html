@@ -4,68 +4,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Carousel</title>
         <link rel="stylesheet" href="reset.css" />
-        <!-- <link rel="stylesheet" href="bootstrap.css" /> -->
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="container-test">
+        <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
+                <!-- <div class="carousel-indicators">
                     <button
                         type="button"
-                        data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide-to="0"
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="0"
                         class="active"
                         aria-current="true"
                         aria-label="Slide 1"
                     ></button>
                     <button
                         type="button"
-                        data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide-to="1"
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="1"
                         aria-label="Slide 2"
                     ></button>
                     <button
                         type="button"
-                        data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide-to="2"
+                        data-target="#carouselExampleIndicators"
+                        data-slide-to="2"
                         aria-label="Slide 3"
                     ></button>
-                </div>
+                </div> -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <h2 style="background-color: red; align-items: start">Item 1</h2>
+                        <h2>Item 1</h2>
                     </div>
                     <div class="carousel-item">
-                        <h2 style="background-color: green; padding-left: 100px">Item 2</h2>
+                        <h2>Item 2</h2>
                     </div>
                     <div class="carousel-item">
-                        <h2 style="background-color: blue; margin-bottom: 50px; align-items: end">Item 3</h2>
+                        <h2>Item 3</h2>
                     </div>
                 </div>
-                <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev"
-                >
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators">
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next"
-                >
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators">
                     <span class="visually-hidden">Next</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators1">
+                    <span class="visually-hidden">Next Khác</span>
                 </button>
             </div>
         </div>
+
         <!-- script -->
         <script src="./main.js"></script>
-
-        <!-- <script src="./bootstrap.js"></script> -->
     </body>
 </html>
